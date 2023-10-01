@@ -3,7 +3,7 @@ import json
 import requests
 import yaml
 
-def integration(instance: dict, params: dict, config : dict = { "timeout" : 15 }):
+def integration(instance: dict, params: dict, config = { "timeout" : 15 }):
 
     #url = instance["url"] 
 
