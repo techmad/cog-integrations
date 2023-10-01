@@ -1,5 +1,6 @@
+import requests
+import json
 
-#
 def integration(instance, params, config = { "timeout" : 30 }):
 
     url = instance["url"] # "https://mb-api.abuse.ch/api/v1/") 
