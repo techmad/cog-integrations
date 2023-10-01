@@ -35,4 +35,3 @@ def integration(instance: dict, params: dict, config : dict = { "timeout" : 15 }
         return {"status": "ERROR",
                  "response" : str(e)
         }
-
