@@ -5,7 +5,7 @@ import yaml
 
 def integration(instance: dict, params: dict, config : dict = { "timeout" : 15 }):
 
-    url = instance["url"] 
+    #url = instance["url"] 
 
     commands = ['ip',
                 'check_ip_command',
@@ -15,8 +15,8 @@ def integration(instance: dict, params: dict, config : dict = { "timeout" : 15 }
                 'get-categories'
                 ]
   
-    with open('config.yml', 'r') as file:
-        config = yaml.safe_load(file)
+    #with open('config.yml', 'r') as file:
+    #    config = yaml.safe_load(file)
 
 
     try:
@@ -26,7 +26,7 @@ def integration(instance: dict, params: dict, config : dict = { "timeout" : 15 }
         return {
                 "status": "OK",
                 #"response" : json_response,
-                "test": config,
+                #"test": config,
                 "type" : "list-objects"
             }
     
