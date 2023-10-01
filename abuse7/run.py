@@ -11,7 +11,7 @@ def integration(instance, params, config = { "timeout" : 15 }):
         json_response = response.content.decode("utf-8", "ignore")
         json_response = json.loads(json_response)['data']
         return {"status": "OK",
-                 #"response" : json_response,
+                 "response" : json_response,
                  "type" : "list-objects"
         }
     
