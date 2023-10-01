@@ -1,7 +1,7 @@
 import requests
 import json
 
-def integration(instance, params, config = { "timeout" : 23 }):
+def integration(instance, params, config = { "timeout" : 24 }):
 
     url = instance["url"] # "https://mb-api.abuse.ch/api/v1/") 
 
