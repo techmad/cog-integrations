@@ -1,7 +1,7 @@
 
-import json
-import requests
-import yaml
+#import json
+#import requests
+#import yaml
 
 def integration(instance: dict, params: dict, config = { "timeout" : 15 }):
 
