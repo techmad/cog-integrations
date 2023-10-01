@@ -1,12 +1,10 @@
 categories: ["Data Enrichment", "Threat Intelligence"]
 
-commonfields:
+common:
   id: AbuseIPDB
   version: 1.0
-
-description: Central repository to report and identify IP addresses that have been associated with malicious activity online. Check the Detailed Information section for more information on how to configure the integration.
-display: AbuseIPDB
-name: AbuseIPDB
+  description: Central repository to report and identify IP addresses that have been associated with malicious activity online. Check the Detailed Information section for more information on how to configure the integration.
+  display: AbuseIPDB
 
 configuration:
 - defaultvalue: https://api.abuseipdb.com/api/v2/
