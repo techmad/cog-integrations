@@ -12,7 +12,7 @@ def integration(instance, params, config = { "timeout" : 30 }):
         json_response = json.loads(json_response)['data']
         return {"status": "OK",
                  "response" : json_response,
-                 "type" : "list-objects"
+                 "response_type" : "list-objects"
         }
     
     except Exception as e:
