@@ -1,9 +1,16 @@
 
-#import json
-#import requests
+import json
+import requests
+import config
 
+
+def print():
+    configs = config.yaml2dict()
+    return configs
 
 def integration(instance: dict, params: dict, config = { "timeout" : 15 }):
+
+    #print(configs)
 
     #url = instance["url"] 
 
